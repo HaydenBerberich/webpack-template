@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "build": "webpack",
-      "dev": "webpack serve"
+    "build": "webpack --config webpack.prod.js",
+    "dev": "webpack serve --open --config webpack.dev.js"
   },
   "repository": {
     "type": "git",
@@ -26,6 +26,7 @@
     "style-loader": "^4.0.0",
     "webpack": "^5.111.1",
     "webpack-cli": "^7.2.3",
-    "webpack-dev-server": "^6.0.0"
+    "webpack-dev-server": "^6.0.0",
+    "webpack-merge": "^6.0.1"
   }
 }
