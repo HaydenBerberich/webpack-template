@@ -1,5 +1,5 @@
 {
-  "name": "template",
+  "name": "webpack-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,16 +12,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaydenBerberich/template.git"
+    "url": "git+https://github.com/HaydenBerberich/webpack-template.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/HaydenBerberich/template/issues"
+    "url": "https://github.com/HaydenBerberich/webpack-template/issues"
   },
-  "homepage": "https://github.com/HaydenBerberich/template#readme",
+  "homepage": "https://github.com/HaydenBerberich/webpack-template#readme",
   "devDependencies": {
     "@babel/preset-env": "^7.29.7",
     "@eslint/js": "^10.0.1",
